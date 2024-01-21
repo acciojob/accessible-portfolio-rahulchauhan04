@@ -1,2 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
 
-/* Your CSS Code here. */
+header, nav, section, {
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
